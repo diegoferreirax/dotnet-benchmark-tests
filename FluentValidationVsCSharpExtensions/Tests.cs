@@ -35,7 +35,7 @@ public class Tests
     }
 
     [Benchmark]
-    public ValidationResult BenchmarkDotNetAttributes()
+    public ValidationResult FluentValidation()
     {
         var customer = new User(Guid.NewGuid(), "name", "email", "password", "role");
         UserValidator validator = new UserValidator();
