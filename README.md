@@ -41,7 +41,7 @@ Para configurar o ambiente de testes, siga o passo abaixo:
 
 ## 📚 Visualizando os resultados
 
-1. **Acessar pasta de artifacts**
+1. **Acessar pasta de artifacts (somente rodando localmente)**
    - No diretório `BenchmarkDotNet.Artifacts` é possivel visualizar os resultados em texto e HTML.
 
 2. **Acessar o print na pasta do projeto de teste**
